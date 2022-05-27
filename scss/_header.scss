@@ -1,0 +1,43 @@
+.fuente {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+      text-align: center;
+      color: #535151;
+  }
+  .colorNav{
+      background-image: linear-gradient(to top, #86878b, #5a5e60);
+  }
+  
+  .logo {
+      margin-left: 20px;
+  }
+  .botonCarrito {
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 5px;
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 4px;
+      color: #fff;
+      background-image: linear-gradient(to right, #3fbbc0, #0083B0);
+  }
+  
+  .botonCarrito:hover {
+      transform: translateY(-3px);
+      transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
+  }
+  
+  
+  .botonCarrito:active{
+      transform:translateY(3px);
+  }
+  .botonNav {
+      text-decoration: none;
+       text-align: center;
+  
+  }
+  
+  .botonNav:hover {
+       filter:invert(100%) ;
+  }
+  
